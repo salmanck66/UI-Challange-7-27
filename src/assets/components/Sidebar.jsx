@@ -2,8 +2,8 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChartSimple,
-  faDesktop,
-  faArrowRight,
+  faDesktop,faCarrot,faCalendarXmark,
+  faArrowRight,faHospital,faCalendarDays
 } from "@fortawesome/free-solid-svg-icons";
 
 const Sidebar = () => {
@@ -62,8 +62,8 @@ const Sidebar = () => {
           <div>
             <div className="flex justify-between items-center">
               <div className="flex items-center">
-                <FontAwesomeIcon icon={faChartSimple} />
-                <div className="ms-2">Performance analysis</div>
+              <FontAwesomeIcon icon={faHospital} />
+                <div className="ms-2">Injury tracker</div>
               </div>
               <div>
                 <FontAwesomeIcon icon={faArrowRight} />
@@ -72,8 +72,8 @@ const Sidebar = () => {
 
             <div className="flex justify-between items-center">
               <div className="flex items-center">
-                <FontAwesomeIcon icon={faDesktop} />
-                <div className="ms-2">Video analysis</div>
+                <FontAwesomeIcon icon={faCarrot} />
+                <div className="ms-2">Nutrition Tracker</div>
               </div>
               <div>
                 <FontAwesomeIcon icon={faArrowRight} />
@@ -84,13 +84,13 @@ const Sidebar = () => {
 
         <div className="grid gap-3 py-2">
           <div>
-            <span className="text-xl font-bold">Performance</span>
+            <span className="text-xl font-bold">Calender</span>
           </div>
           <div>
             <div className="flex justify-between items-center">
               <div className="flex items-center">
-                <FontAwesomeIcon icon={faChartSimple} />
-                <div className="ms-2">Performance analysis</div>
+              <FontAwesomeIcon icon={faCalendarDays} />
+                <div className="ms-2">Training plan</div>
               </div>
               <div>
                 <FontAwesomeIcon icon={faArrowRight} />
@@ -99,8 +99,8 @@ const Sidebar = () => {
 
             <div className="flex justify-between items-center">
               <div className="flex items-center">
-                <FontAwesomeIcon icon={faDesktop} />
-                <div className="ms-2">Video analysis</div>
+              <FontAwesomeIcon icon={faCalendarXmark} />
+                <div className="ms-2">Upcoming events</div>
               </div>
               <div>
                 <FontAwesomeIcon icon={faArrowRight} />
@@ -109,32 +109,6 @@ const Sidebar = () => {
           </div>
         </div>
 
-        <div className="grid gap-3 py-2">
-          <div>
-            <span className="text-xl font-bold">Health & Wellness</span>
-          </div>
-          <div>
-            <div className="flex justify-between items-center">
-              <div className="flex items-center">
-                <FontAwesomeIcon icon={faChartSimple} />
-                <div className="ms-2">Performance analysis</div>
-              </div>
-              <div>
-                <FontAwesomeIcon icon={faArrowRight} />
-              </div>
-            </div>
-
-            <div className="flex justify-between items-center">
-              <div className="flex items-center">
-                <FontAwesomeIcon icon={faDesktop} />
-                <div className="ms-2">Video analysis</div>
-              </div>
-              <div>
-                <FontAwesomeIcon icon={faArrowRight} />
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );
