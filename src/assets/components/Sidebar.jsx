@@ -8,7 +8,7 @@ import {
 
 const Sidebar = () => {
   return (
-    <div className="profile gird justify-center items-center ps-10 pt-6">
+    <div className="profile grid justify-center items-center ps-10 pt-6">
       <div className="grid justify-items-center gap-4">
         <div className="">
           <img
@@ -28,125 +28,113 @@ const Sidebar = () => {
       </div>
 
       <div className="pt-5">
-        <div className=" grid gap-3 py-2">
+        <div className="grid gap-3 py-2">
           <div>
-            <span className="text-xl font-bold">Perfomance</span>
+            <span className="text-xl font-bold">Performance</span>
           </div>
           <div>
-
-            <div className="flex justify-between">
-
-              <div className="">
-                {" "}
+            <div className="flex justify-between items-center">
+              <div className="flex items-center">
                 <FontAwesomeIcon icon={faChartSimple} />
+                <div className="ms-2">Performance analysis</div>
               </div>
-              <div className="ms-2">Perfomance analysis</div>
-              <div></div>
-              <div className="ms-2">
+              <div>
                 <FontAwesomeIcon icon={faArrowRight} />
               </div>
             </div>
 
-
-
-            <div className="flex">
-              <div className="">
-                {" "}
+            <div className="flex justify-between items-center">
+              <div className="flex items-center">
                 <FontAwesomeIcon icon={faDesktop} />
+                <div className="ms-2">Video analysis</div>
               </div>
-              <div className="ms-2">Video analysis</div>
-              <div className="ms-2">
+              <div>
                 <FontAwesomeIcon icon={faArrowRight} />
               </div>
             </div>
           </div>
         </div>
 
-        <div className=" grid gap-3 py-2">
+        <div className="grid gap-3 py-2">
           <div>
             <span className="text-xl font-bold">Wealth & Wellness</span>
           </div>
           <div>
-            <div className="flex">
-              <div className="">
-                {" "}
+            <div className="flex justify-between items-center">
+              <div className="flex items-center">
                 <FontAwesomeIcon icon={faChartSimple} />
+                <div className="ms-2">Performance analysis</div>
               </div>
-              <div className="ms-2">Perfomance analysis</div>
-              <div className="ms-2">
+              <div>
                 <FontAwesomeIcon icon={faArrowRight} />
               </div>
             </div>
-            <div className="flex">
-              <div className="">
-                {" "}
+
+            <div className="flex justify-between items-center">
+              <div className="flex items-center">
                 <FontAwesomeIcon icon={faDesktop} />
+                <div className="ms-2">Video analysis</div>
               </div>
-              <div className="ms-2">Video analysis</div>
-              <div className="ms-2">
-                <FontAwesomeIcon icon={faArrowRight} />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className=" grid gap-3 py-2">
-          <div>
-            <span className="text-xl font-bold">Perfomance</span>
-          </div>
-          <div>
-            <div className="flex">
-              <div className="">
-                {" "}
-                <FontAwesomeIcon icon={faChartSimple} />
-              </div>
-              <div className="ms-2">Perfomance analysis</div>
-              <div className="ms-2">
-                <FontAwesomeIcon icon={faArrowRight} />
-              </div>
-            </div>
-            <div className="flex">
-              <div className="">
-                {" "}
-                <FontAwesomeIcon icon={faDesktop} />
-              </div>
-              <div className="ms-2">Video analysis</div>
-              <div className="ms-2">
+              <div>
                 <FontAwesomeIcon icon={faArrowRight} />
               </div>
             </div>
           </div>
         </div>
 
-
-        <div className=" grid gap-3 py-2">
+        <div className="grid gap-3 py-2">
           <div>
-            <span className="text-xl font-bold">health & Wellness</span>
+            <span className="text-xl font-bold">Performance</span>
           </div>
           <div>
-            <div className="flex">
-              <div className="">
-                {" "}
+            <div className="flex justify-between items-center">
+              <div className="flex items-center">
                 <FontAwesomeIcon icon={faChartSimple} />
+                <div className="ms-2">Performance analysis</div>
               </div>
-              <div className="ms-2">Perfomance analysis</div>
-              <div className="ms-2">
+              <div>
                 <FontAwesomeIcon icon={faArrowRight} />
               </div>
             </div>
-            <div className="flex">
-              <div className="">
-                {" "}
+
+            <div className="flex justify-between items-center">
+              <div className="flex items-center">
                 <FontAwesomeIcon icon={faDesktop} />
+                <div className="ms-2">Video analysis</div>
               </div>
-              <div className="ms-2">Video analysis</div>
-              <div className="ms-2">
+              <div>
                 <FontAwesomeIcon icon={faArrowRight} />
               </div>
             </div>
           </div>
         </div>
 
+        <div className="grid gap-3 py-2">
+          <div>
+            <span className="text-xl font-bold">Health & Wellness</span>
+          </div>
+          <div>
+            <div className="flex justify-between items-center">
+              <div className="flex items-center">
+                <FontAwesomeIcon icon={faChartSimple} />
+                <div className="ms-2">Performance analysis</div>
+              </div>
+              <div>
+                <FontAwesomeIcon icon={faArrowRight} />
+              </div>
+            </div>
 
+            <div className="flex justify-between items-center">
+              <div className="flex items-center">
+                <FontAwesomeIcon icon={faDesktop} />
+                <div className="ms-2">Video analysis</div>
+              </div>
+              <div>
+                <FontAwesomeIcon icon={faArrowRight} />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
